@@ -1,0 +1,184 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #000;
+  color: #fff;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior: none;
+}
+
+#root {
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+/* Mobile-friendly touch targets */
+@media (max-width: 640px) {
+  button,
+  a,
+  input[type="radio"],
+  label {
+    min-height: 44px;
+  }
+}
+
+/* Custom scrollbar for dark theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1f1f1f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff9000;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ffb84d;
+}
+
+/* Focus styles for accessibility */
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+  outline: 2px solid #ff9000;
+  outline-offset: 2px;
+}
+
+/* Custom link styles */
+a {
+  color: #ff9000;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #ffb84d;
+}
+
+/* Animation for glowing effect */
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 40px 5px rgba(255, 255, 255, 0.15);
+  }
+  50% {
+    box-shadow: 0 0 50px 8px rgba(255, 144, 0, 0.2);
+  }
+}
+
+.glow-effect {
+  animation: glow 3s ease-in-out infinite;
+}
+
+/* Radio button custom styles */
+input[type="radio"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ff9000;
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+input[type="radio"]:checked {
+  background: #ff9000;
+  box-shadow: inset 0 0 0 4px #1f1f1f;
+}
+
+input[type="radio"]:hover {
+  border-color: #ffb84d;
+  box-shadow: 0 0 10px rgba(255, 144, 0, 0.3);
+}
+
+/* Button base styles */
+.btn {
+  @apply px-6 py-3 font-bold text-white bg-castas-dark rounded-lg;
+  @apply border-[3px] border-castas-orange;
+  @apply transition-all duration-300 ease-in-out;
+  @apply hover:bg-castas-darker hover:shadow-glow-orange;
+  @apply active:scale-95;
+}
+
+.btn:disabled {
+  @apply opacity-50 cursor-not-allowed;
+  @apply hover:bg-castas-dark hover:shadow-none;
+}
+
+/* Progress bar container */
+.progress-bar-container {
+  @apply w-full h-4 bg-castas-darker rounded-full overflow-hidden;
+}
+
+.progress-bar-fill {
+  @apply h-full bg-gradient-to-r from-castas-orange to-castas-orange-light;
+  @apply transition-all duration-500 ease-out;
+}
+
+/* Emoji Picker React custom styles */
+.EmojiPickerReact {
+  --epr-bg-color: #0a0a0a !important;
+  --epr-category-label-bg-color: #1f1f1f !important;
+  --epr-search-input-bg-color: #1f1f1f !important;
+  --epr-hover-bg-color: #1f1f1f !important;
+  --epr-border-color: #333 !important;
+  --epr-shadow: 0 0 20px 5px rgba(255, 144, 0, 0.15) !important;
+  border-radius: 0.5rem !important;
+  border: 1px solid #333 !important;
+}
+
+.EmojiPickerReact .epr-search-input {
+  background-color: #1f1f1f !important;
+  border-color: #333 !important;
+  color: #fff !important;
+}
+
+.EmojiPickerReact .epr-search-input::placeholder {
+  color: #666 !important;
+}
+
+.EmojiPickerReact .epr-category-nav {
+  background-color: #0a0a0a !important;
+}
+
+.EmojiPickerReact .epr-emoji-img {
+  filter: drop-shadow(0 0 0 transparent);
+}
+
+.EmojiPickerReact .epr-emoji:hover {
+  transform: scale(1.2);
+}
+
+.EmojiPickerReact::-webkit-scrollbar {
+  width: 8px;
+}
+
+.EmojiPickerReact::-webkit-scrollbar-track {
+  background: #1f1f1f;
+}
+
+.EmojiPickerReact::-webkit-scrollbar-thumb {
+  background: #ff9000;
+  border-radius: 4px;
+}
