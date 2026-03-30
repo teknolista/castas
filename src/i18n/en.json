@@ -78,11 +78,11 @@
     "howItWorksIntro": "The site's operation is quite simple and intuitive. When opening the main page, you can start the test immediately, without needing to log in or perform any other configuration. To answer the questions, you must select the option that best represents your personal values and life choices. Answer honestly!",
     "dimensionsIntro": "Affective polarization can be measured in 5 dimensions, each measurable through 8 questions:",
     "dimensions": {
-      "a": "Emotional Hostility, which measures irritation and negative visceral reaction when hearing the opposing group;",
-      "b": "Moral Devaluation, which evaluates the tendency to see the other as ignorant, malicious, or dishonest;",
-      "c": "Social Distance, which verifies the discomfort in living or establishing personal bonds (such as friendship or family) with those who think differently;",
-      "d": "Democratic Delegitimization, which analyzes the perception of the other group as an existential threat or someone who should have fewer political rights;",
-      "e": "Identity Segregation, which observes how much a person lives in a \"bubble\" of media consumption and exclusive social circles of their own group."
+      "a": "measures irritation and negative visceral reaction when hearing the opposing group;",
+      "b": "evaluates the tendency to see the other as ignorant, malicious, or dishonest;",
+      "c": "verifies the discomfort in living or establishing personal bonds (such as friendship or family) with those who think differently;",
+      "d": "analyzes the perception of the other group as an existential threat or someone who should have fewer political rights;",
+      "e": "observes how much a person lives in a \"bubble\" of media consumption and exclusive social circles of their own group."
     },
     "scoringIntro": "The result calculation uses a 4-point Likert Scale to measure the intensity of each response:",
     "scoring": {

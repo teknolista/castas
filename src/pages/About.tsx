@@ -77,10 +77,10 @@ export function About() {
           <p className="mt-6">{t('about.scoringIntro')}</p>
 
           <ul className="list-disc list-inside space-y-1 ml-4 text-castas-orange">
-            <li>4 pts: {t('about.scoring.stronglyAgree')}</li>
-            <li>3 pts: {t('about.scoring.somewhatAgree')}</li>
-            <li>2 pts: {t('about.scoring.somewhatDisagree')}</li>
-            <li>1 pt: {t('about.scoring.stronglyDisagree')}</li>
+            <li>3 pts: {t('about.scoring.stronglyAgree')}</li>
+            <li>2 pts: {t('about.scoring.somewhatAgree')}</li>
+            <li>1 pts: {t('about.scoring.somewhatDisagree')}</li>
+            <li>0 pt: {t('about.scoring.stronglyDisagree')}</li>
           </ul>
 
           <p className="mt-6">{t('about.resultExample')}</p>

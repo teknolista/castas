@@ -78,11 +78,11 @@
     "howItWorksIntro": "A operação do site é bastante simples e intuitiva. Ao abrir a página principal você já poderá iniciar o teste de imediato, sem necessidade de efetuar login ou qualquer outra configuração. Para responder às questões, você deverá selecionar aquela opção que melhor representa seus valores pessoais e suas escolhas de vida. Responda honestamente!",
     "dimensionsIntro": "A polarização afetiva pode ser medida em 5 dimensões, cada uma mensurável através de 8 questões:",
     "dimensions": {
-      "a": "Hostilidade Emocional, que mede a irritação e a reação visceral negativa ao ouvir o grupo oposto;",
-      "b": "Desvalorização Moral, que avalia a tendência de enxergar o outro como ignorante, mal-intencionado ou desonesto;",
-      "c": "Distanciamento Social, que verifica o desconforto em conviver ou estabelecer laços pessoais (como amizade ou família) com quem pensa diferente;",
-      "d": "Deslegitimação Democrática, que analisa a percepção do outro grupo como uma ameaça existencial ou alguém que deveria ter menos direitos políticos;",
-      "e": "Segregação Identitária, que observa o quanto a pessoa vive em uma \"bolha\" de consumo de mídia e círculos sociais exclusivos de seu próprio grupo."
+      "a": "mede a irritação e a reação visceral negativa ao ouvir o grupo oposto;",
+      "b": "avalia a tendência de enxergar o outro como ignorante, mal-intencionado ou desonesto;",
+      "c": "verifica o desconforto em conviver ou estabelecer laços pessoais (como amizade ou família) com quem pensa diferente;",
+      "d": "analisa a percepção do outro grupo como uma ameaça existencial ou alguém que deveria ter menos direitos políticos;",
+      "e": "observa o quanto a pessoa vive em uma \"bolha\" de consumo de mídia e círculos sociais exclusivos de seu próprio grupo."
     },
     "scoringIntro": "O cálculo do resultado utiliza uma Escala Likert de 4 pontos para medir a intensidade de cada resposta:",
     "scoring": {
