@@ -22,6 +22,8 @@
 
 ---
 
+<p align="right"><a href="MAKINGOF.md">🏗️ Making Of</a></p>
+
 ## About
 
 **Castas** is a web application designed to assess the level of affective polarization in individuals through a simple online questionnaire. The purpose of this app is to offer a diagnostic tool for one of the most challenging phenomena in modern democracies.
