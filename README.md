@@ -22,7 +22,7 @@
 
 ---
 
-<p align="right"><a href="MAKINGOF.md">🏗️ Making Of</a></p>
+<p align="right"><a href="MAKINGOF.md">🇧🇷 Nota do Desenvolvedor</a></p>
 
 ## About
 
