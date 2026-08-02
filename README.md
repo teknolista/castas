@@ -151,13 +151,6 @@ The test measures affective polarization across 5 dimensions:
 | D | Democratic Delegitimization | Viewing opponents as threats to democracy |
 | E | Identity Segregation | Living in a political bubble |
 
-
-58% 
-67% 
-58% 
-54% 
-67% 
-
 ## Scoring System
 
 Each question uses a 4-point Likert scale:
