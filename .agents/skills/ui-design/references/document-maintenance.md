@@ -1,6 +1,6 @@
-# Maintaining docs/ui-design.md
+# Maintaining a screen specification
 
-Apply this procedure when screen documentation is in scope. Resolve the **target project root**, not this skill package or the filesystem root. The default path is `<project-root>/docs/ui-design.md`. Existing explicit project instructions or user destinations take precedence; report any deliberate alternative. Save partial specification iterations, but a localized implementation or review does not by itself require creating a design document. Update an existing authoritative screen contract when the authorized change affects it; preserve conversation-only and read-only scope.
+Apply this procedure when screen documentation is in scope. Resolve the **target project root**, not this skill package or the filesystem root. For a PentaPRO project, use `<project-root>/pentapro/product/experience.md` and linked screen files under PRODUCT. For other projects, the default is `<project-root>/docs/ui-design.md`. Existing explicit project instructions or user destinations take precedence; report any deliberate alternative. Save partial specification iterations, but a localized implementation or review does not by itself require creating a design document. Update an existing authoritative screen contract when the authorized change affects it; preserve conversation-only and read-only scope.
 
 If the project already maintains a screen specification at a different path, continue that authoritative document unless a path migration is requested. For an authorized migration, preserve its content and update incoming links instead of creating competing specifications.
 
@@ -8,7 +8,7 @@ Read the existing document before writing. Preserve accepted decisions, stable I
 
 ## Ownership and traceability
 
-`ui-design.md` owns the detailed screen/flow/visual contract. Link existing design-system files for canonical tokens instead of cloning their full content. PentaPRO's five files retain ownership of product requirements, proof/evidence, architecture, operation and work execution. Record UI consequences here and propose or make authorized updates in the appropriate owner when a decision changes scope, permissions, data retention, contracts or acceptance. Do not silently resolve conflicts in whichever file was edited last.
+`ui-design.md` owns the detailed screen/flow/visual contract. Link existing design-system files for canonical tokens instead of cloning their full content. PentaPRO's five files retain ownership of product requirements, architecture, operation, proof/evidence and work execution. Record UI consequences here and propose or make authorized updates in the appropriate owner when a decision changes scope, permissions, data retention, contracts or acceptance. Do not silently resolve conflicts in whichever file was edited last.
 
 Use existing IDs. If none exist, a small scheme such as `UI-S01` screen, `UI-F01` flow and `UI-D01` decision is sufficient. Keep IDs stable after renaming; retire IDs visibly when references still use them. Index screens with platform, purpose, specification/decision status and links. Scope platform differences explicitly; do not duplicate a whole screen merely for a theme or width variant.
 

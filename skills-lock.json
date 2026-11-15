@@ -101,7 +101,8 @@
       "source": "teknolista/skills",
       "sourceType": "github",
       "skillPath": "penta-pro/SKILL.md",
-      "computedHash": "a6a17702cb474e3f30b642e9e0d76cd642d80adfc7ac9685fad66f4952e01bee"
+      "computedHash": "cdebdc78becf39d4df156a88bc22959b18aa1115a60068352b364c2aa8168afa",
+      "installMode": "copy"
     },
     "pr-quiz": {
       "source": "teknolista/skills",
@@ -131,7 +132,8 @@
       "source": "teknolista/skills",
       "sourceType": "github",
       "skillPath": "ui-design/SKILL.md",
-      "computedHash": "3076532a5c07b1b06eba41be9a4ba958266bb9e96b34eee90c2f96461a168578"
+      "computedHash": "8fee1b880e9858a20fcef10efde62b8a6b981329390199f54b0099ff64f4fcf3",
+      "installMode": "copy"
     }
   }
 }

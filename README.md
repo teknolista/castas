@@ -91,3 +91,7 @@ See [LICENSE](.etc/LICENSE) for more details.
 Copyleft © 2026 <a href="https://x.com/teknolista">Raul Bras</a> 🇧🇷 Published under the GPL v3.0 license. <br>
 Made in Brazil, in the Land of Oz (SP) , with 🌭 🍕 and AI 🤖.
 </small></p>
+
+## PentaPRO specification
+
+The [repository-root PentaPRO structure](pentapro/README.md) contains five pillar directories and supporting assets. Its [status record](pentapro/process/index.md) identifies the existing accepted documents and migration work. OpenSpec changes remain under [openspec](openspec/).

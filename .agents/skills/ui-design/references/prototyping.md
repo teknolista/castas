@@ -1,6 +1,6 @@
 # Optional local prototype workflow
 
-Use a prototype to settle a material visual/interaction question or make multiple meaningful states easier to review. Existing application components, Compose previews, wireframes and project tooling remain valid choices. A small text correction does not require a gallery. Keep `docs/ui-design.md` authoritative and link optional sources/exports from it; this workflow does not add a required brief or replace product code.
+Use a prototype to settle a material visual/interaction question or make multiple meaningful states easier to review. Existing application components, Compose previews, wireframes and project tooling remain valid choices. A small text correction does not require a gallery. Keep the project's screen contract authoritative and link optional sources/exports from it; this workflow does not add a required brief or replace product code.
 
 ## Decide what the artifact should demonstrate
 

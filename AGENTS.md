@@ -4,6 +4,8 @@ Castas is a monorepo with two independently built apps: `web/` and `android/`. R
 
 ## Specification-driven work
 
+- Read [PentaPRO](pentapro/README.md) and its [status](pentapro/process/index.md) for project-wide context. The new topic layout is being reconciled with the existing five pillar files in docs/. Update affected PentaPRO records when an accepted software change changes product, design, operation, evidence or process. Preserve historical evidence and mark stale checks.
+
 - The repository-root `openspec/` is the only OpenSpec project. Never initialize or create a nested OpenSpec directory under either app.
 - For exploratory or underspecified feature requests, use the `openspec-explore` skill. For a defined new feature, create its artifacts with `openspec-propose`; a proposal records decisions and acceptance criteria but does not authorize implementation by itself.
 - Implement an accepted change with `openspec-apply-change`. Archive only after its tasks, acceptance criteria, and required checks are complete.

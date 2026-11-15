@@ -1,0 +1,3 @@
+# PentaPRO specification
+
+Read [PROCESS](process/index.md) for current scope and next action. The five pillars own the maintained software specification. Use [PRODUCT](product/overview.md), [PROJECT](project/architecture.md), [PRODUCTION](production/environments.md), [PROOF](proof/traceability.md), and [PROCESS](process/index.md). Put supporting images, icons, styles and other binary resources in [assets](assets/), with source, rights and revision recorded in the owning pillar. A new change updates the affected canonical records and evidence for its tested revision. OpenSpec change artifacts remain in the repository-root openspec/ when that workflow is selected.

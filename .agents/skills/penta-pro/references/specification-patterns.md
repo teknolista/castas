@@ -1,6 +1,6 @@
 # Specification Patterns
 
-Use a form below only when the [pillar templates](../assets/penta-pro-template.md) need more detail for a consequential contract, decision, or operational procedure. Fill supported fields automatically with source references; leave unresolved choices `Pending` and recommendations `Proposed`. Incorporate applicable detail into its owning pillar or link an existing authoritative artifact; these forms do not require additional output files.
+Use a form below only when the [pillar templates](../assets/penta-pro-template.md) need more detail for a consequential contract, decision, or operational procedure. Fill supported fields automatically with source references; leave unresolved choices `Pending` and recommendations `Proposed`. Incorporate applicable detail into its owning pillar or link an existing authoritative artifact; these forms belong in the applicable topic files.
 
 Keep each record in its existing authoritative location and link it from the specification. Copy only applicable fields; explain non-applicability when it could otherwise look like an omission. Native schemas, headers, trackers, or runbooks can replace these forms. The [worked example](worked-example.md) demonstrates linked records without executed evidence.
 
@@ -67,7 +67,7 @@ For an operation that changes durable state, grants access, or has external effe
 | An authenticated actor requests another tenant's resource | The required resource-level authority and allowed response and effects | Use two isolated tenants. Exercise reads and writes across the boundary and verify both returned data and durable effects against the access rule. |
 | A migration and older clients coexist | Which versions may read and write each state, and when recovery becomes irreversible | Exercise the supported old/new combinations with pre-existing data and interrupt at the consequential migration boundary. |
 
-For example, if a confirmed rule permits at most one reservation per request, a missing response leaves the outcome unknown. A retry check must count reservations and inspect their ownership. A successful retry response alone cannot establish that the rule held. Keep the behavior and criterion in PRODUCT, the operation contract in PROJECT, the planned check in PROOF, ownership in PROCESS, and reconciliation or recovery in PRODUCTION.
+For example, if a confirmed rule permits at most one reservation per request, a missing response leaves the outcome unknown. A retry check must count reservations and inspect their ownership. A successful retry response alone cannot establish that the rule held. Keep the behavior and criterion in PRODUCT, the operation contract in PROJECT, reconciliation or recovery in PRODUCTION, the planned check in PROOF, and ownership in PROCESS.
 
 ## Threat and hazard mapping
 

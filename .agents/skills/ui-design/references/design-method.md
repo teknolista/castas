@@ -47,7 +47,7 @@ Use [feedback surfaces and state coverage](feedback-states.md) when specifying e
 
 When direction is genuinely unresolved, compare a few named alternatives on the same representative screen, task, content and window. Give each a concise rationale and descriptive attributes tied to the audience. Vary meaningful axes such as palette temperature, type/hierarchy, shape, composition or information density; a hue swap alone rarely explores a different experience. Keep non-negotiable brand and platform behavior fixed, and explain which tradeoffs each option exposes.
 
-Retain the chosen direction, rejected concerns and any remix by decision ID in `docs/ui-design.md`. A remix can combine compatible elements but needs another coherence/contrast check; it is not automatically validated because its source options were checked. Use the user's delegated authority for routine choices and seek input for consequential unresolved decisions. Do not impose three options, both themes, an extra approval ceremony or a visual redesign on a small edit. For reviewable local artifacts, use [prototyping](prototyping.md).
+Retain the chosen direction, rejected concerns and any remix by decision ID in the project's screen contract. A remix can combine compatible elements but needs another coherence/contrast check; it is not automatically validated because its source options were checked. Use the user's delegated authority for routine choices and seek input for consequential unresolved decisions. Do not impose three options, both themes, an extra approval ceremony or a visual redesign on a small edit. For reviewable local artifacts, use [prototyping](prototyping.md).
 
 ## Critique and refinement
 

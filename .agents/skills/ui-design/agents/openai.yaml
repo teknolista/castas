@@ -1,4 +1,4 @@
 interface:
   display_name: "UI Design"
   short_description: "Specify and build coherent web and Android screens"
-  default_prompt: "Use $ui-design to detail this application's screens and flows, resolve consequential gaps, and maintain docs/ui-design.md with decisions and verification needs."
+  default_prompt: "Use $ui-design to detail this application's screens and flows, resolve consequential gaps, and maintain its screen contract with decisions and verification needs. Use pentapro/product/experience.md when the project uses PentaPRO."
