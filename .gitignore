@@ -59,8 +59,11 @@ docs/**/*.tmp
 .ai-context/
 .context/
 .vibes/
+.agents/
 .skills/
 .cursor/
 .cursorrules
 .windsurfrules
 .opencode/
+skills-lock.json
+AGENTS.log
