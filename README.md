@@ -44,14 +44,12 @@ Each app can be built and developed independently. Install web dependencies from
 
 - [`docs/`](docs/README.md) contains product and process documentation, design artifacts, and Android verification records.
 - [`openspec/`](openspec/) is the canonical OpenSpec project for shared questionnaire behavior and platform-specific requirements.
-- [`.agents/skills/`](.agents/skills/) contains the OpenSpec workflows and focused development skills used across the repository.
 - [`LICENSE`](LICENSE) is the repository license for both applications.
 
 ## Repository layout
 
 ```text
 castas/
-├── .agents/skills/       # Shared agent skills
 ├── .github/workflows/    # Web deployment and Android CI
 ├── android/              # Android app, Gradle wrapper, and Android-specific guide
 ├── docs/                 # Shared documentation and product artifacts

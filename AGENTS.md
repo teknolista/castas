@@ -14,8 +14,8 @@ Castas is a monorepo with two independently built apps: `web/` and `android/`. R
 
 ## Skills
 
-- Discover project skills under `.agents/skills/` and use the smallest relevant set. OpenSpec skills own their corresponding OpenSpec operations; use Teknolista skills as focused helpers for product, Android, web, testing, security, or review concerns.
-- `skills-lock.json` records the pinned Teknolista skill sources. Keep it in sync when that collection changes. OpenSpec-generated skills record their generator version in their metadata; check compatibility with the installed `openspec` CLI before relying on generated instructions after a CLI upgrade.
+- Use OpenSpec skills for their corresponding OpenSpec operations. Use focused platform or domain skills when available.
+- OpenSpec-generated skills record their generator version in their metadata; check compatibility with the installed `openspec` CLI before relying on generated instructions after a CLI upgrade.
 - Do not invoke every installed skill by default. Follow the app guides and run the checks applicable to the changed app and shared behavior. Report checks actually run and any platform or device coverage not obtained.
 
 ## Application checks
