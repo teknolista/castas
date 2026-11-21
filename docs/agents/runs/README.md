@@ -1,0 +1,9 @@
+# Factory execution records
+
+For a factory run or substantial dependent multi-agent change, the orchestrator maintains one `run.json` under `<run-id>/` in this directory. Create a record only when real work starts. Existing approved trackers/ledgers with equivalent identity, checkpoint and recovery controls can remain canonical; record their location rather than duplicating them.
+
+Use the installed software-factory skill's `references/run-records.md` and `scripts/run_state.py` for the format, initialization, capture, compare-and-save and checks. Resolve their actual installed paths, including plugin namespaces. Setup does not copy a helper into the project or execute an active run. If the companion or Python/Git prerequisites are missing, report the unavailable automatic checks and use only an approved equivalent persistence mechanism.
+
+Only the orchestrator writes records; delegated roles return evidence and snapshot identity. Write record summaries and lesson candidates in English even when specifications use Portuguese. Reference canonical requirements and tests; preserve the separate lessons record for reusable learning. Check actual source, branch and external effects before continuing after an interruption. A saved status alone cannot prove that a command succeeded or a review is current.
+
+Keep this directory for execution metadata only: it is excluded from source fingerprints. Store executable code, acceptance criteria and test implementations elsewhere. Preserve populated records, custom guidance and pending work. Choose project versioning policy for sanitized summaries; keep raw traces, prompt logs, credentials and unnecessary personal data out. No helper automatically commits, pushes or changes host configuration. A post-publication checkpoint may remain local until the next authorized commit.
