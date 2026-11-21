@@ -2,13 +2,28 @@ schema: spec-driven
 
 context: |
   Repository: Castas monorepo with the web app in web/ and native Android app in android/.
+  Read the repository AGENTS.md and the applicable subproject instructions and contracts.
+  State which subprojects each change affects. The web app comes first.
+  The web app is planned before Android development.
+  PentaPRO in pentapro/ maintains project facts and specifications; OpenSpec owns active changes and their scenarios and tasks. Reconcile changed records and validation evidence across both.
   Shared behavior: questionnaire content, scoring, result formatting, translations, and user-facing features apply to both apps unless a change explicitly scopes a platform out.
   For user-facing changes, define acceptance scenarios for both web and Android in the same change. Record intentional platform-specific behavior and differences in the change artifacts.
   Platform-specific implementation and release requirements belong in platform-scoped specs.
   Canonical OpenSpec root: repository root. Do not create nested OpenSpec projects under web/ or android/.
-  Language: en
-  All artifacts must be written in en.
+  Language: English
+  All artifacts must be written in English.
   Keep OpenSpec structural headings and SHALL/MUST keywords in English.
+
+rules:
+  proposal:
+    - State the intended outcome, scope, exclusions, and affected subprojects.
+  specs:
+    - Describe observable behavior and relevant failure cases in acceptance
+      scenarios.
+  tasks:
+    - Link behavior tasks to their acceptance scenarios and name the evidence
+      needed.
+
 skillsScope: project
 
 # Per-artifact rules (optional)

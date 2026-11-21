@@ -73,6 +73,6 @@ prettierignore.txt
 .opencode/
 skills-lock.json
 
-# Mandatory local prompt log and its rotated copies (see docs/agents-log-policy.md)
+# Local append-only prompt log (mandatory) and its log-file rotated variants (see AGENTS.md)
 /AGENTS.log
 /AGENTS.log.*
