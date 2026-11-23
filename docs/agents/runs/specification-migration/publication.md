@@ -1,0 +1,3 @@
+# Migration delivery receipt
+
+Commit `eca42a85fab9f4c759c8b89fa85f483b0aa0d88d` published normally to origin/main and verified by factory_shipper against the actual GitHub destination. All pending publishable setup and authorized specification migration files included. OpenSpec directory absent. Independent source coverage/history checks and local links/whitespace checks passed. No application source/updater changes or new application test claims. Castas CI runs45221539844/45221539752 were in progress when queried; ChuteGPT has no workflows. Post-push records remain local; do not repeat confirmed push solely for late bookkeeping.

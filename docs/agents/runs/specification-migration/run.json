@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "run_id": "specification-migration",
-  "record_version": 2,
+  "record_version": 3,
   "objective": "Absorb OpenSpec specifications and useful history into canonical PentaPRO, deduplicate and remove OpenSpec only after coverage checks.",
   "contracts": [
     "pentapro/process/legacy-specification-migration.md"
@@ -12,10 +12,10 @@
     "base_commit": "47ad92a984696fc756b9148e22ee4048065b05e8"
   },
   "orchestrator": "main-session",
-  "state": "SHIP",
+  "state": "DONE",
   "snapshot": {
     "fingerprint": "6c82732b3ea282f791753c42c1dc5e23930404962cef5be7393b8b5a129fa142",
-    "head": "47ad92a984696fc756b9148e22ee4048065b05e8"
+    "head": "eca42a85fab9f4c759c8b89fa85f483b0aa0d88d"
   },
   "gates": [
     {
@@ -29,9 +29,18 @@
     }
   ],
   "tasks": [],
-  "operations": [],
+  "operations": [
+    {
+      "id": "publish-migration",
+      "kind": "push",
+      "authorization": "Earlier explicit all-project commit/push request, followed by explicit authorization to migrate and remove OpenSpec.",
+      "status": "confirmed",
+      "expected_revision": "eca42a85fab9f4c759c8b89fa85f483b0aa0d88d",
+      "observation": "docs/agents/runs/specification-migration/publication.md"
+    }
+  ],
   "blockers": [],
-  "next_action": "Previously authorized shipping of migrated documentation.",
+  "next_action": "Migration and authorized publication complete. Preserve local late receipts; use native PentaPRO for new changes; retain archived historical context.",
   "history": [
     {
       "record_version": 1,
@@ -42,6 +51,12 @@
     {
       "record_version": 2,
       "state": "SHIP",
+      "orchestrator": "main-session",
+      "snapshot": "6c82732b3ea282f791753c42c1dc5e23930404962cef5be7393b8b5a129fa142"
+    },
+    {
+      "record_version": 3,
+      "state": "DONE",
       "orchestrator": "main-session",
       "snapshot": "6c82732b3ea282f791753c42c1dc5e23930404962cef5be7393b8b5a129fa142"
     }
