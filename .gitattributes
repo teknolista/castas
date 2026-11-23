@@ -1,2 +1,78 @@
+# =============================================================================
+# .gitattributes — Universal, language- and platform-independent template
+# Define how Git handles line endings and common binary file formats.
+# 1. Automatically detect text files and normalize line endings in Git
+* text=auto
+# 2. Use the expected line endings for cross-platform scripts
+*.sh        text eol=lf
+*.bash      text eol=lf
+*.zsh       text eol=lf
+*.bat       text eol=crlf
+*.cmd       text eol=crlf
+# 3. Treat office documents and PDFs as binary files
+*.pdf       binary
+*.doc       binary
+*.docx      binary
+*.xls       binary
+*.xlsx      binary
+*.ppt       binary
+*.pptx      binary
+# 4. Treat raster images as binary files (SVG remains text)
+*.png       binary
+*.jpg       binary
+*.jpeg      binary
+*.gif       binary
+*.webp      binary
+*.ico       binary
+*.bmp       binary
+*.tif       binary
+*.tiff      binary
+# 5. Treat audio and video files as binary files
+*.mp3       binary
+*.wav       binary
+*.ogg       binary
+*.flac      binary
+*.mp4       binary
+*.mov       binary
+*.avi       binary
+*.webm      binary
+# 6. Treat archives and compressed files as binary files
+*.zip       binary
+*.tar       binary
+*.gz        binary
+*.7z        binary
+*.rar       binary
+# 7. Treat font files as binary files
+*.ttf       binary
+*.otf       binary
+*.woff      binary
+*.woff2     binary
+# 8. Treat executables and compiled artifacts as binary files
+*.exe       binary
+*.dll       binary
+*.so        binary
+*.dylib     binary
+*.wasm      binary
+# 9. Use consistent LF line endings for common text formats
+*.svg       text eol=lf
+*.md        text eol=lf
+*.json      text eol=lf
+*.yaml      text eol=lf
+*.yml       text eol=lf
+*.toml      text eol=lf
+# 10. Keep repository configuration files as LF text
+.gitattributes text eol=lf
+.gitignore     text eol=lf
+.editorconfig  text eol=lf
+# OPTIONAL RULES — enable only when appropriate for the project.
+# Mark generated code and vendored dependencies for GitHub Linguist
+# generated/** linguist-generated
+# vendor/**    linguist-vendored
+# Exclude selected files from archives created with 'git archive'
+# tests/**     export-ignore
+# .github/**   export-ignore
+# Git LFS must be installed and configured before enabling LFS patterns
+# *.psd filter=lfs diff=lfs merge=lfs -text
+
 docs/*.pdf binary
 android/gradlew.bat text eol=crlf

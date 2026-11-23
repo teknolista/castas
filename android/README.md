@@ -55,9 +55,9 @@ Copying a result sends its text to the Android system clipboard. The app marks t
 - `app/src/main/` contains the Compose UI, questionnaire logic, translations, and bundled content.
 - `app/src/test/` contains JVM tests; `app/src/androidTest/` contains device and emulator tests.
 - `tools/` contains Android host-side utilities.
-- Shared requirements, design references, and verification records are in [`../openspec/`](../openspec/) and [`../docs/`](../docs/).
+- Shared requirements, design references, and verification records are in [`../pentapro/`](../pentapro/) and [`../docs/`](../docs/).
 
-New user-facing behavior belongs to the shared feature process described in the [repository README](../README.md): specify and implement the web and Android acceptance criteria together, or record an explicit platform-specific scope or intentional difference in the root OpenSpec change.
+New user-facing behavior belongs to the shared feature process described in the [repository README](../README.md): specify and implement the web and Android acceptance criteria together, or record an explicit platform-specific scope or intentional difference in the root PentaPRO change.
 
 ## Release
 

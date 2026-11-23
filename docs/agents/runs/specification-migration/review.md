@@ -1,0 +1,3 @@
+# Independent specification migration review
+
+factory_spec independently compared all 11 original requirement bodies/21 scenarios, all 12 original archived files including YAML metadata, and five migrated pillar records. Requirements match after heading-level normalization; archives match original Git bytes. OpenSpec directory absent and active guidance native. Initial review found moved evidence locators and stale root migration wording; both corrected by main session. Focused rereview at6c82732b3ea282f791753c42c1dc5e23930404962cef5be7393b8b5a129fa142 found no remaining blocker. README license target also corrected to existing LICENSE. Whitespace passed. No app tests or release-readiness claim.

@@ -55,7 +55,7 @@ web/
 
 The web app does not require an account or a project backend. Completed results are stored in the browser's local storage; the app does not use tracking cookies or store individual responses on a server. The Android app has its own storage and build setup in [`../android/`](../android/).
 
-The canonical product requirements and shared project docs live in [`../openspec/`](../openspec/) and [`../docs/`](../docs/). The repository-level [README](../README.md) explains the monorepo layout; the shared license is [`../LICENSE`](../LICENSE).
+The canonical product requirements and shared project docs live in [`../pentapro/`](../pentapro/) and [`../docs/`](../docs/). The repository-level [README](../README.md) explains the monorepo layout; the shared license is [`../LICENSE`](../LICENSE).
 
 ## Deployment
 

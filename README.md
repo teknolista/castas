@@ -43,7 +43,7 @@ Each app can be built and developed independently. Install web dependencies from
 ## Shared project files
 
 - [`docs/`](docs/README.md) contains product and process documentation, design artifacts, and Android verification records.
-- [`openspec/`](openspec/) is the canonical OpenSpec project for shared questionnaire behavior and platform-specific requirements.
+- [`pentapro/`](pentapro/) owns the specification, including Android questionnaire and release contracts.
 - [`LICENSE`](LICENSE) is the repository license for both applications.
 
 ## Repository layout
@@ -53,7 +53,7 @@ castas/
 ├── .github/workflows/    # Web deployment and Android CI
 ├── android/              # Android app, Gradle wrapper, and Android-specific guide
 ├── docs/                 # Shared documentation and product artifacts
-├── openspec/             # Canonical shared and platform-specific specifications
+├── pentapro/             # Canonical specification and native change records
 ├── web/                  # Web app, npm lockfile, and web-specific guide
 ├── LICENSE
 └── README.md
@@ -67,7 +67,7 @@ For the web app's features, scoring details, and deployment, see the [web guide]
 
 ## Keeping both apps aligned
 
-The root [OpenSpec project](openspec/) is the source of product requirements for both apps. For a new or changed user-facing feature, its change should define acceptance scenarios for web and Android and cover both implementations. If a change is intentionally limited to one app, or the apps should behave differently, record that scope or difference explicitly. Keep shared questions, scoring, result formatting, and translations consistent, and verify each app affected by the change.
+The root [PentaPRO specification](pentapro/) owns project requirements; the migrated questionnaire contract is Android-specific. For a new or changed user-facing feature, its change should define acceptance scenarios for web and Android and cover both implementations. If a change is intentionally limited to one app, or the apps should behave differently, record that scope or difference explicitly. Keep shared questions, scoring, result formatting, and translations consistent, and verify each app affected by the change.
 
 ## Data Privacy
 
@@ -81,7 +81,7 @@ The root [OpenSpec project](openspec/) is the source of product requirements for
 
 This project is licensed under the **GPL v3.0 License**.
 
-See [LICENSE](.etc/LICENSE) for more details.
+See [LICENSE](LICENSE) for more details.
 
 ---
 
@@ -92,9 +92,9 @@ Made in Brazil, in the Land of Oz (SP) , with 🌭 🍕 and AI 🤖.
 
 ## PentaPRO specification
 
-The [repository-root PentaPRO structure](pentapro/README.md) contains five pillar directories and supporting assets. Its [status record](pentapro/process/index.md) identifies the existing accepted documents and migration work. OpenSpec changes remain under [openspec](openspec/).
+The [repository-root PentaPRO structure](pentapro/README.md) contains five pillar directories and supporting assets. Its [status record](pentapro/process/index.md) identifies the existing accepted documents and migration work. Native changes are maintained under `pentapro/changes/`.
 
 
 ## AI development workflow
 
-This repository uses project-local PentaPRO skills and factory agent profiles together with [OpenSpec](openspec/). See [agent instructions](AGENTS.md) for the project workflow. The [continuous improvement protocol](docs/agents/continuous-improvement.md) describes PDSA and the [lessons record](docs/agents/lessons-learned.md); substantial factory runs use the [execution-record guide](docs/agents/runs/README.md). Lessons are recorded in English.
+This repository uses project-local PentaPRO skills and factory agent profiles and the native [PentaPRO workflow](pentapro/). See [agent instructions](AGENTS.md) for the project workflow. The [continuous improvement protocol](docs/agents/continuous-improvement.md) describes PDSA and the [lessons record](docs/agents/lessons-learned.md); substantial factory runs use the [execution-record guide](docs/agents/runs/README.md). Lessons are recorded in English.

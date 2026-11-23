@@ -2,7 +2,7 @@
 
 - Project / platform: Castas Android, Kotlin + Jetpack Compose.
 - Scope: native counterparts to the seven web screens, including the questionnaire and result journey.
-- Governing behavior: [OpenSpec capability](../openspec/specs/affective-polarization-test/spec.md).
+- Governing behavior: [PentaPRO feature contract](../pentapro/product/features.md).
 - Source evidence: Castas wireframes and assets in [`artifacts/`](artifacts/), translated copy and current React implementation in [`../web/`](../web/).
 
 ## Experience foundations

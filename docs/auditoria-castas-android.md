@@ -10,7 +10,7 @@ O commit criou um módulo Gradle Android com Kotlin 2.0.21, Jetpack Compose/Mate
 
 Comparei as **120 traduções das perguntas** com o código web e confirmei igualdade textual e de ordem. Os três arquivos de imagem do Android têm os mesmos hashes que os originais em `docs/assets`. Nos três catálogos de interface, todas as chaves da web estão presentes. As diferenças nas chaves são as adaptações de armazenamento em termos e privacidade e uma descrição localizada do banner. A presença das chaves não prova que a interface renderiza todo o conteúdo. A escala de cálculo 3–2–1–0 e o arredondamento de cada grupo de oito respostas reproduzem a lógica da web. O wireframe *Sobre* da web descreve 4–3–2–1, em conflito com o código e com a especificação Likert.
 
-Fontes locais [build Android](../android/app/build.gradle.kts), [interface Compose](../android/app/src/main/java/com/teknolista/castas/MainActivity.kt), [pontuação](../android/app/src/main/java/com/teknolista/castas/data/CastasDomain.kt), [DataStore](../android/app/src/main/java/com/teknolista/castas/data/CastasPreferences.kt) e [contrato OpenSpec](../openspec/changes/archive/2026-11-08-castas-native-android/specs/affective-polarization-test/spec.md).
+Fontes locais [build Android](../android/app/build.gradle.kts), [interface Compose](../android/app/src/main/java/com/teknolista/castas/MainActivity.kt), [pontuação](../android/app/src/main/java/com/teknolista/castas/data/CastasDomain.kt), [DataStore](../android/app/src/main/java/com/teknolista/castas/data/CastasPreferences.kt) e [contrato OpenSpec](../pentapro/changes/archive/2026-11-08-castas-native-android/specs/affective-polarization-test/spec.md).
 
 ## 2. Achados e ordem de correção
 
@@ -114,7 +114,7 @@ O PDF revisado de 07/11/2026, que não está incluído neste repositório, descr
 
 O PDF já pede evidência executável, revisão e tratamento de lacunas. Vale acrescentar um exemplo de portabilidade real, incluindo divergência entre docs e código, preflight sandbox versus host, prova do primeiro teste em dispositivo, fallback CLI quando a integração não pode escrever, registro de versão/descoberta e três gates distintos: implementação, archive e publicação. Corrigir o trecho de bootstrap para registrar o comando e o resultado reais. Em `PentaPRO`, usar um modelo de matriz **requisito → fonte → decisão → teste → evidência**, sem duplicar o delta do OpenSpec.
 
-Naquele relatório, as próximas tarefas ainda estavam pendentes. O fechamento posterior concluiu e arquivou as duas changes descritas acima. Para continuar o Castas, consulte o estado e as specs atuais em `openspec/`; inicie uma nova change para cada nova funcionalidade ou melhoria com aceite independente. Mudanças de comportamento compartilhado precisam cobrir web e Android na mesma change, conforme o [processo atual](process.md).
+Naquele relatório, as próximas tarefas ainda estavam pendentes. O fechamento posterior concluiu e arquivou as duas changes descritas acima. Para continuar o Castas, consulte o estado e as especificações atuais em `pentapro/`; inicie uma nova change para cada nova funcionalidade ou melhoria com aceite independente. Mudanças de comportamento compartilhado precisam cobrir web e Android na mesma change, conforme o [processo atual](process.md).
 
 ## 8. O que faltava na documentação web
 

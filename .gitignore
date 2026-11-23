@@ -1,3 +1,72 @@
+# =============================================================================
+# .gitignore — Universal, language- and platform-independent template
+# Add stack-specific rules only when they are needed by the project.
+# 1. Local environment files (may contain secrets)
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+!.env.dist
+!.env.*.example
+!.env.*.sample
+!.env.*.template
+.envrc.local
+# 2. Logs and process state files
+*.pid
+*.pid.lock
+# 3. Temporary files and editor backups
+*.tmp
+*.temp
+*.bak
+*.old
+*~
+.#*
+\#*#
+*.orig
+*.rej
+# 4. Local tool caches and histories
+.cache/
+.tmp/
+.temp/
+# 5. Personal IDE files (keep shareable project settings trackable)
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/shelf/
+.idea/httpRequests/
+.idea/usage.statistics.xml
+.vscode/.history/
+*.sublime-workspace
+# 6. Operating system metadata
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100/
+.Trashes/
+.fseventsd/
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.directory
+# OPTIONAL RULES — enable only when appropriate for the project.
+# These patterns are not universal and may hide legitimate project files.
+# /build/
+# /dist/
+# /out/
+# /coverage/
+# /tmp/
+# /logs/
+# /artifacts/
+# /reports/
+#
+# Keep language- and framework-specific patterns in each project's .gitignore
+# (e.g., node_modules/, __pycache__/, target/, .gradle/).
+# Do not ignore *.lock, *.json, *.db, *.key, or *.pem indiscriminately:
+# some of these files may legitimately need to be version-controlled.
+# ==============================================================================
+# AI development artifacts: skills, context, prompts, and agent-specific files
+# Local append-only prompt log and its log-file rotated variants (see AGENTS.md)
+
 # Operating systems
 .DS_Store
 Thumbs.db

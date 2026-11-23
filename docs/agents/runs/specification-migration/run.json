@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "run_id": "specification-migration",
+  "record_version": 2,
+  "objective": "Absorb OpenSpec specifications and useful history into canonical PentaPRO, deduplicate and remove OpenSpec only after coverage checks.",
+  "contracts": [
+    "pentapro/process/legacy-specification-migration.md"
+  ],
+  "repository": {
+    "root": "/home/dever/workspace/teknolista/castas",
+    "branch": "main",
+    "base_commit": "47ad92a984696fc756b9148e22ee4048065b05e8"
+  },
+  "orchestrator": "main-session",
+  "state": "SHIP",
+  "snapshot": {
+    "fingerprint": "6c82732b3ea282f791753c42c1dc5e23930404962cef5be7393b8b5a129fa142",
+    "head": "47ad92a984696fc756b9148e22ee4048065b05e8"
+  },
+  "gates": [
+    {
+      "id": "migration-review",
+      "kind": "spec-review",
+      "required": true,
+      "status": "passed",
+      "snapshot": "6c82732b3ea282f791753c42c1dc5e23930404962cef5be7393b8b5a129fa142",
+      "evidence": "docs/agents/runs/specification-migration/review.md",
+      "reason": "Independent preservation checks and focused rereview passed."
+    }
+  ],
+  "tasks": [],
+  "operations": [],
+  "blockers": [],
+  "next_action": "Previously authorized shipping of migrated documentation.",
+  "history": [
+    {
+      "record_version": 1,
+      "state": "INTAKE",
+      "orchestrator": "main-session",
+      "snapshot": "8e07349d2bd7af8fd24af418665f6e779464e324268a2e458874794848ae74f8"
+    },
+    {
+      "record_version": 2,
+      "state": "SHIP",
+      "orchestrator": "main-session",
+      "snapshot": "6c82732b3ea282f791753c42c1dc5e23930404962cef5be7393b8b5a129fa142"
+    }
+  ]
+}
