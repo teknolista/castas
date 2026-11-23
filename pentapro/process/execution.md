@@ -7,8 +7,8 @@ Use native `pentapro/changes/` for future changes. Shared web/Android features r
 ## Scope and decisions
 
 - The user authorized native Android implementation, corrections found in the first audit, and local release preparation. The web repository provides the behavior and content reference. The About wireframe there was corrected to match its executable score scale.
-- The OpenSpec CLI archived two completed changes and consolidated their capabilities. `castas-native-android` governs the product and its Android interactions. `prepare-android-play-release` governs API compatibility, release packaging, and maintainer handoff.
-- The PentaPRO files now own requirements, acceptance scenarios, technical decisions, evidence, and operational handoff; the preceding OpenSpec ownership is historical.
+- Two completed changes are archived under `pentapro/changes/archive/`, with their capabilities consolidated into the current pillar records. `castas-native-android` governs the product and its Android interactions. `prepare-android-play-release` governs API compatibility, release packaging, and maintainer handoff.
+- PentaPRO owns current requirements, acceptance scenarios, technical decisions, evidence, and operational handoff; archived change records preserve their original scope and tasks.
 - [The closing audit](../../docs/auditoria-fechamento-castas.md) records the previous emulator diagnosis, the corrections, reviewed scope, and lessons for future projects.
 
 ## Implementation and review

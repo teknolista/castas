@@ -1,6 +1,6 @@
 # PRODUCTION · Android support and release candidate
 
-Accepted requirements and scenarios migrated from `openspec/specs/android-release-readiness/spec.md`. These state the contract; they are not evidence of a new test or release approval. See [verification](../proof/verification.md). Shared changes must specify web and Android scope and intentional differences.
+The accepted Android release requirements and scenarios are maintained here. They state the contract; they are not evidence of a new test or release approval. See [verification](../proof/verification.md). Shared changes must specify web and Android scope and intentional differences.
 
 ## Requirement: Android API support
 The app SHALL target API 36 and install from API 26, with a working questionnaire and readable emoji fallback on its minimum platform.

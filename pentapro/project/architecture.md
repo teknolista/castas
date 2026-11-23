@@ -18,3 +18,7 @@ See [the questionnaire contract](../product/features.md), [Android release contr
 The packaged app has no Internet permission, accounts, analytics, WebView, or app-managed backend. The launcher Activity is the public entry point. The release manifest also contains a ProfileInstaller receiver protected by the platform permission `android.permission.DUMP`. The saved result and language live in sandboxed Preferences DataStore. The manifest disables backup and specifies exclusion rules for both cloud backup and device transfer. Store links and project credits open externally only on user action.
 
 Copying exports the scores to the system clipboard. The app marks that clip sensitive and displays short-lived confirmation. Receiving apps and platform clipboard behavior remain outside its control. Release approval, signing credentials, and physical-device validation are tracked in [PRODUCTION](../../docs/production.md).
+
+## Web baseline
+
+The [web design record](../changes/document-web-baseline/project.md) maps actual React route consumers, scoring and browser boundaries. Its observations complement the Android architecture without implying feature/recovery parity.

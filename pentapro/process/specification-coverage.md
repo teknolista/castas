@@ -1,11 +1,11 @@
-# Legacy specification migration coverage
+# PentaPRO specification coverage
 
-The two consolidated Android capability files were migrated into their owning pillars. Historical archived changes remain snapshots; this migration does not establish new runtime evidence or release acceptance.
+The Android questionnaire and release contracts are consolidated in their owning pillars. Archived change records remain historical snapshots; this coverage record does not establish new runtime evidence or release acceptance.
 
 | Source | SHA-256 | Canonical owner |
 | --- | --- | --- |
-| `affective-polarization-test/spec.md` | `32f6b2d1896105a018b5d5aa11b5f98dda6b310a71861861ac61f010376f2269` | [../product/features.md](../product/features.md) |
-| `android-release-readiness/spec.md` | `9c031c5494682fb8ed485655c8aca30ef4ce53f0f9eaed08572026280c3a0cbd` | [../production/environments.md](../production/environments.md) |
+| `../changes/archive/2026-11-08-castas-native-android/specs/affective-polarization-test/spec.md` | `32f6b2d1896105a018b5d5aa11b5f98dda6b310a71861861ac61f010376f2269` | [../product/features.md](../product/features.md) |
+| `../changes/archive/2026-11-08-prepare-android-play-release/specs/android-release-readiness/spec.md` | `9c031c5494682fb8ed485655c8aca30ef4ce53f0f9eaed08572026280c3a0cbd` | [../production/environments.md](../production/environments.md) |
 
 ## Requirement and scenario mapping
 
@@ -27,16 +27,16 @@ The two consolidated Android capability files were migrated into their owning pi
 - PROJECT: current architecture/security description linked; other topic scaffolds remain Pending.
 - PRODUCTION: Android API/package requirements and scenarios included; operational handoff migrated. Physical device, signing and asset rights remain pending where recorded.
 - PROOF: historical verification and limits migrated, not rerun. Toolchain discrepancy remains explicit.
-- PROCESS: native PentaPRO change workflow, preserved legacy archives, and pending reconciliations.
+- PROCESS: native PentaPRO change workflow, preserved archived records, and pending reconciliations.
 
 ## Duplicates and provenance
 
-Consolidated requirements appear once as the current canonical contract. Archived change deltas remain historical snapshots, not competing current specifications. Five existing `docs/` pillar records were moved into the corresponding PentaPRO owners; the original paths remain short navigation redirects. Specialist UI, legal and audit records remain linked as supporting sources. Original deleted archive metadata is restored from Git into the moved archive. The former OpenSpec configuration is retained as [historical configuration](../changes/archive/legacy-openspec-config.yaml), not active workflow authority.
+Consolidated requirements appear once as the current canonical contract. Archived change deltas remain historical snapshots, not competing current specifications. Five existing `docs/` pillar records were moved into the corresponding PentaPRO owners; the original paths remain short navigation redirects. Specialist UI, legal and audit records remain linked as supporting sources. Original archive metadata is preserved with the archived change records. The active workflow and its constraints are recorded in PentaPRO and repository instructions.
 
 
 Verification before removal: all 9 Android feature requirements and 18 scenarios, plus 2 release requirements and 3 scenarios, match the source headings in order; the full requirement/scenario bodies were transferred. Historical archive destinations were byte-compared to their deleted Git counterparts, and missing metadata was recovered from HEAD. No application tests were run for this documentation migration.
 
 
-Post-removal validation: exact source requirements/scenario bodies were compared before deletion; archive source bytes were checked against Git HEAD; `git diff --check` passed. Changed-Markdown relative target scan found one pre-existing unrelated `README.md` link to `.etc/LICENSE` missing; no links to removed OpenSpec paths remain in active Markdown. No Android or web application tests were run. A separate review remains appropriate for all five pillars and the historical toolchain discrepancy.
+Post-removal validation: exact source requirements/scenario bodies were compared before deletion; archive source bytes were checked against Git HEAD; `git diff --check` passed. Changed-Markdown relative target scan found one pre-existing unrelated `README.md` link to `.etc/LICENSE` missing; active Markdown links resolve to the maintained PentaPRO records. No Android or web application tests were run. A separate review remains appropriate for all five pillars and the historical toolchain discrepancy.
 
 The unrelated pre-existing README license target was corrected to the existing root LICENSE during final documentation validation; this changes navigation only, not licensing terms.

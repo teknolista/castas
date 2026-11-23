@@ -1,6 +1,6 @@
 # PRODUCT · Android questionnaire and user experience
 
-Accepted requirements and scenarios migrated from `openspec/specs/affective-polarization-test/spec.md`. These state the contract; they are not evidence of a new test or release approval. See [verification](../proof/verification.md). Shared changes must specify web and Android scope and intentional differences.
+The accepted Android questionnaire requirements and scenarios are maintained here. They state the contract; they are not evidence of a new test or release approval. See [verification](../proof/verification.md). Shared changes must specify web and Android scope and intentional differences.
 
 ## Requirement: Native Android experience
 The application SHALL present Castas as an Android-native application and SHALL NOT render its user experience using web pages or a cross-platform web framework.
@@ -100,3 +100,7 @@ The application SHALL NOT transmit questionnaire answers or results to a remote 
 ### Scenario: Complete a questionnaire
 - **WHEN** a user completes all questions
 - **THEN** only the completed result needed to render the result screen is retained locally
+
+## Web scope reconciliation
+
+These accepted requirements govern Android. [The web baseline draft](../changes/document-web-baseline/product.md) records observed web behavior and explicit persistence/localization differences; it does not extend Android guarantees to web.
